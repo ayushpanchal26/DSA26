@@ -7,3 +7,12 @@ def countDigits(n: int) -> int:
         count +=1
         n = n//10
     return count
+
+# another method ---> for better runtime and memory graph 
+import math 
+def countDigits(n: int) -> int:
+    # Write your code here
+    count = int(math.log10(abs(n))+1)
+    return count
+
+    
