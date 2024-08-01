@@ -6,7 +6,7 @@ def evenlyDivides (self, N):
         while(N>0):
             last_digit = N%10
             N = N//10
-            if original_num %last_digit ==0 and last_digit!=0:
+            if last_digit!=0 and  original_num %last_digit ==0:
                 count+=1
             
         return count
