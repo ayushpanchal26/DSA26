@@ -5,14 +5,28 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
-        
-        if x<0:
-            return False
-        num = x
-        rev = 0
-        while x>0:
+        orignal = x
+        reverse = 0
+        while(x>0):
             last = x%10
-            rev = rev*10+last
-            num = num//10
+            x = x//10
+            reverse = (reverse*10)+last
             
-        return num == rev
+        return orignal == reverse
+        
+
+
+ 
+# https://leetcode.com/problems/palindrome-number/
+n=int(input())  
+orignal = n
+reverse = 0 
+while(n>0):
+    last_digit = n%10
+    n = n//10
+    reverse = (reverse*10)+last_digit
+
+if orignal == reverse:
+    print('true')
+else:
+    print('false')
