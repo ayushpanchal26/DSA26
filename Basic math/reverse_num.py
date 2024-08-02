@@ -13,4 +13,15 @@ class Solution(object):
             
         return rev
 
-  # https://leetcode.com/problems/reverse-integer/
+# https://leetcode.com/problems/reverse-integer/
+# Reverse Number: https://bit.ly/3vCeBXS
+
+N  = int(input())
+rev_num = 0
+while(N>0):
+    last_digit = N%10
+    N = N//10
+    rev_num = (rev_num*10)+last_digit
+
+print(rev_num)
+
