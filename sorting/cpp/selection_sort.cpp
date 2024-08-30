@@ -1,4 +1,4 @@
-// Online C++ compiler to run C++ program online
+
 #include <iostream>
 using namespace std;
 void selection(int arr[], int n){
@@ -10,12 +10,13 @@ void selection(int arr[], int n){
                 
             }
         // swap
+        
+        }
         int temp = arr[mini];
         arr[mini] = arr[i];
         arr[i]= temp;
-        }
     }
-    for (int i = 0;i<=n;i++){
+    for (int i = 0;i<n;i++){
         cout<<arr[i]<<" ";
     }
 }
@@ -27,7 +28,7 @@ int main() {
     for (int i = 0;i<n;i++){
         cout<<arr[i]<<" ";
     }
-    cout<<endl;
+    cout<< '\n';
     selection(arr,n);
     return 0;
 }
