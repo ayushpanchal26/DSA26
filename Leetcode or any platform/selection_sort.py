@@ -13,3 +13,5 @@ class Solution:
                     min_index = j
             arr[min_index],arr[i] = arr[i],arr[min_index]
 
+
+# platform - geekforgeeks
