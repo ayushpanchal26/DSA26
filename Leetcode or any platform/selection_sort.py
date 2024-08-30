@@ -1,6 +1,4 @@
-# link - https://bit.ly/3ppA6YJ
-#User function Template for python3
-
+# ###link - https://bit.ly/3ppA6YJ
 class Solution: 
     def select(self, arr, i):
         # code here 
