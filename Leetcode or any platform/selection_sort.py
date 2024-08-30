@@ -14,3 +14,5 @@ class Solution:
                 if arr[j]<arr[min_index]:
                     min_index = j
             arr[min_index],arr[i] = arr[i],arr[min_index]
+
+# platform - geeks for geeks
