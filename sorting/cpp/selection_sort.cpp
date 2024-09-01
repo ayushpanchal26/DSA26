@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 void selection(int arr[], int n){
@@ -21,7 +20,6 @@ void selection(int arr[], int n){
     }
 }
 int main() {
-    // Write C++ code here
     int arr[] = {13,46,24,52,20,9};
     int n = sizeof(arr) / sizeof(arr[0]);
     
